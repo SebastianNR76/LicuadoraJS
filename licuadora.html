@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluir estilo de CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Licuadora</title>
+</head>
+
+<!-- Cuerpo del pagina -->
+<body>
+<!-- Contenedor  -->
+    <diV class="container">
+        <!-- Contenerdor licuadora -->
+        <div id="blender" class="blender">
+            <!-- contenedor boton con accion -->
+            <div id="blender-buttom" class="blender-buttom" onclick="controlarLicuadora()"></div>
+        </div>    
+    </div>
+ 
+    <!--Insertar audio desde HTML -->
+    <audio id="blender-buttom-sound" src="sounds/sound_botonLicuadora.mp3" type="audio/mpeg"></audio> 
+    <audio id= "blender-sound" src="sounds/sound_licuadora.mp3" type="audio/mpeg" loop ></audio>
+
+    <!-- Anclar arhivo JavaScript siempre al final del documento antes del body -->
+    <script src="js/motor.js"></script>  
+</body>
+</html>
